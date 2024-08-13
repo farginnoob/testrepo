@@ -21,6 +21,7 @@ pipeline {
                 echo "Testing..."
                 sh '''
                 echo "doing test stuff..."
+                bash helloworld.sh
                 '''
             }
         }
